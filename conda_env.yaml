@@ -1,0 +1,14 @@
+# template for conda (or mamba) environment yaml file with all the basics
+name: conda_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - jupyter
+  - ipython
+  - pip
+  - pip:
+      - <some pip only package>
